@@ -8,7 +8,7 @@ Each folder contains three files:
   a) tau.csv and tauprime.csv: those are the distance matrixes of the truck and the drone, respectively.  
   b) nodes.csv, where each row represents a node: 0 is the depot, nodes from 1 to 9 are the customers, and 10 and 11 are the lockers (note that if only one locker is used, then 11 is ignored). For each row, the first value is the node_id, the second and third are the x and y coordinates, and the last value for the customer nodes is 0 if dronable and 1 otherwise.
 
-2) Branch MC20 contains instances with 19 customers and up to 3 lockers.
+2) Branch MC20 contains instances with 19 customers and up to three lockers.
 They are instances that originated from the paper by Murray and Chu (2015) (https://doi.org/10.1016/j.trc.2015.03.005) used for testing the _parallel drone scheduling TSP (PDSTSP)_.
 Each folder contains three files:
   a) tau.csv and tauprime.csv: those are the distance matrixes of the truck and the drone, respectively.  
